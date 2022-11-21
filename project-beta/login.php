@@ -16,6 +16,7 @@ include "conn.php";
           session_start();
           while($row = $result->fetch_assoc()) {
             echo "id: " . $row["id"]. " - Name: " . $row["user"]. "<br>";
+
             header("Location: index.php");
 
 

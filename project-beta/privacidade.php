@@ -1,6 +1,6 @@
 <script> 
 var purecookieTitle="Cookies.",purecookieDesc="Os cookies nos ajudam a oferecer nossos serviços e alguns cookies são necessários para o funcionamento do site. Ao usar nossos serviços, você concorda com o uso de cookies",
-purecookieLink='<a href="link-da-politicas-de-privacidade/" target="_blank">Politicas de privacidade</a>',
+purecookieLink='<a href="https://www.4chan.org/legal" target="_blank">Politicas de privacidade</a>',
 purecookieButton="aceitar";
 function pureFadeIn(e,o){
 var i=document.getElementById(e);

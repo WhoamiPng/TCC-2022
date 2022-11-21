@@ -12,8 +12,8 @@
 <script>
     $(window).on('load', function () {
         $('#preloader .inner').fadeOut();
-        $('#preloader').delay(100).fadeOut('slow');
-        $('body').delay(100).css({ 'overflow': 'visible' });
+        $('#preloader').delay(250).fadeOut('slow');
+        $('body').delay(250).css({ 'overflow': 'visible' });
     })
 </script>
 

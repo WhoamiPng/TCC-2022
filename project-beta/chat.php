@@ -7,11 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Estilos -->
 
-    <link rel="stylesheet" href="./css/icon.css">
     <link rel="shortcut icon" href="./imagens/5chan.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
 
 
     <!--  scripts  -->
@@ -20,7 +17,7 @@
     <script src=" https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 
     <title>5Chan: Dreams come true</title>
-    <!--  Protótipo de chat   -->
+
     <script>
         $(document).ready(function () {
             $("#form").submit(function (e) {
@@ -57,8 +54,13 @@
 
 
     ?>
-
-    <div class="container d-flex justify-content-center">
+    <style>
+        body {
+            background-image: linear-gradient(to right, #233329, #63D471);
+        }
+    </style>
+    <h1 class="d-flex justify-content-center p-5 text-light ">Chat 5Chan</h1>
+    <div class="container d-flex justify-content-center p-5">
         <form id="form" action="comment_insert.php" method="post">
 
             <input type="hidden" name="categoria" value='<?php echo $categoria; ?>'>
@@ -66,13 +68,14 @@
             <?php
             include "conn.php";
             if (!isset($_COOKIE['user'])) {
-                echo "<label class='form-label' for='usuario'>Nickname</label><br>";
-                echo "<input class='form-control' placeholder='Insira um nickname' type='text' name='usuario' id='usuario' required minlength='8' maxlength='15'><br>";
+                echo "<label class='form-label text-light' for='usuario'>Nickname</label><br>";
+                echo "<input class='form-control ' placeholder='Insira um nickname' type='text' name='usuario' id='usuario' required minlength='8' maxlength='15'><br>";
             } else {
                 echo " <input class='form-control' type='hidden' name='usuario' value=" . base64_decode($_COOKIE['user']) . ">";
             }
             ?>
-            <label class="form-label" for="comentario">Mensagem</label><br>
+
+            <label class="form-label text-light" for="comentario">Mensagem</label><br>
             <input class="form-control" placeholder="Insira uma mensagem " type="text" name="comentario" id="comentario"
                 required maxlength="100" size="100"><br>
 
@@ -81,7 +84,7 @@
         </form>
     </div>
     <section id="container d-grid gap-3">
-        <h3 class="text-center">Comentarios</h3>
+        <h3 class="text-center text-light">Comentarios</h3>
         <hr>
         <section id="comentarios" class="p-5">
             <?php include 'comment_loader.php' ?>

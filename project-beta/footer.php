@@ -1,9 +1,6 @@
-
-
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="footer.css">
-<footer class="footer navbar-fixed-bottom colorido "  >
+<footer class="navbar-fixed-button">
   <div class="footer-wrap">
     <div class="container first_class">
       <div class="row">
@@ -74,16 +71,11 @@
           <div class="col-md-3 col-sm-6">
             <h3>Sobre o 5Chan</h3>
             <ul class="footer-category">
-              <li><a href="#">A Empresa</a>
+              <li><a href="empresa.php">A Empresa</a>
               </li>
-              <li><a href="#">Portal do nosso hosting</a>
+              <li><a href="trabalhe.php">Trabalhe conosco</a>
               </li>
-              <li><a href="#">Relação com investidores</a>
-              </li>
-              <li><a href="#">Trabalhe conosco</a>
-              </li>
-              <li><a href="#">Atendimento</a>
-              </li>
+
             </ul>
             <div class="clearfix"></div>
           </div>

@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="./imagens/5chan.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="jquery.dataTables.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
-    <script src=" https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <script src="jquery.dataTables.min.js"></script>
 
 
     <title>5Chan: Dreams come true</title>
@@ -28,21 +28,21 @@
     </header>
     <main>
         <div class="p-5">
-            <div class="container border">
+            <div class=" container border">
                 <div>
                     <h1 class="text-center display-4">5Chan</h1>
                     <p class="fs-5 text-center"> Bem-vindo(a) ao projeto 5Chan,divirta-se no ciberespaço, mas com
                         respeito
                         sempre!</p>
                 </div>
-                <div class="container table table-responsive bg-light border">
-                    <table id="example" class="table table-striped table-hover border border-success">
+                <div class="container table table-responsive bg-light ">
+                    <table id="tabela" class="table table-striped table-hover border border-success " style="width:100%">
                         <thead>
                             <tr>
-                                <th scope="col">Tópico</th>
-                                <th scope="col">Indicação </th>
-                                <th scope="col">Total de mensagens</th>
-                                <th scope="col">Curtidas</th>
+                                <th>Tópico</th>
+                                <th>Indicação </th>
+                                <th>Total de mensagens</th>
+                                <th>Curtidas</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -166,7 +166,7 @@
             </div>
             <script>
                 $(document).ready(function () {
-                    $('#example').DataTable();
+                    $('#tabela').DataTable();
                 });
             </script>
             <div class="container border">
@@ -339,5 +339,3 @@
     </main>
 
 </body>
-
-</html>

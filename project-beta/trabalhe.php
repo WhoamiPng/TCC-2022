@@ -24,10 +24,97 @@
         <?php include 'header.php'; ?>
     </header>
     <main>
-        <div class="container">
-            <h1>Deseja trabalhar conosco?</h1>
-            <p>Caso esteja interesado, clique no link abaixo</p>
-            <a href="https://forms.gle/qfY76HDxJvPUQipf8" target="_blank" >Formulário de candidatura</a>
+        <div class="p-5">
+            <div class="container border p-2">
+                <h1 class="display-5">Deseja trabalhar conosco?</h1>
+                <p>Caso esteja interesado, clique no link abaixo</p>
+                <a href="https://forms.gle/qfY76HDxJvPUQipf8" target="_blank">Formulário de candidatura</a>
+            </div>
+            <div class="container border p-4">
+            <div class="bg-light ">
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-lg-4">
+                                <h2 class="display-4 font-weight-light" style=" white-space: nowrap;">Funcionários contratados</h2>
+                                <p class="font-italic text-muted">Eles estão sendo explorados no momento, estão a 7 meses sem receber pagamento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-dark rounded shadow-sm py-5 px-4"><img src="imagens/lucas.jpg" alt=""
+                                width="150px" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                            <h5 class="mb-0 text-light">Lucas Briahn </h5><span
+                                class="small text-uppercase text-muted">Desenvolvedor Front-end</span>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-dark rounded shadow-sm py-5 px-4"><img src="imagens/vini.jpg" alt=""
+                                width="150px" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                            <h5 class="mb-0 text-light">Vinicius Souza</h5><span
+                                class="small text-uppercase text-muted">Desenvolvedor Back-end</span>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-dark rounded shadow-sm py-5 px-4"><img src="imagens/stefani.jpg" alt=""
+                                width="150px" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                            <h5 class="mb-0 text-light">Stefani Soares</h5><span
+                                class="small text-uppercase text-muted">Design text pages</span>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <div class="bg-dark rounded shadow-sm py-5 px-4"><img src="imagens/gabriel.jpg" alt=""
+                                width="150px" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                            <h5 class="mb-0 text-light">Gabriel Moutinho </h5><span
+                                class="small text-uppercase text-muted">Desenvolvedor Full stack </span>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="social-link"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </nav>
+                </div>
+            </div>
         </div>
     </main>
     <footer>

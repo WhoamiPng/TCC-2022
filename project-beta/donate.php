@@ -22,8 +22,9 @@
     </header>
     <main class="p-5">
     <div class="container border">
-        <h1 style="text-align:center;" >APENAS ILUSTRAÇÃO,NÃO SEJA IDIOTA DE ME ENVIAR OS DADOS DO SEU CARTÃO!!!</h1>
-        <form class="checkout">
+        <h1 class="display-6" style="text-align:center;">APENAS ILUSTRAÇÃO,NÃO SEJA IDIOTA DE ME ENVIAR OS DADOS DO SEU CARTÃO!!!</h1>
+        <p class="d-flex justify-content-center" style="font-size:20px;" > Mas caso, você seja, o Site 5Chan não se responsabiliza caso alguém faça uma compra de 2000 reais no seu cartão :) </p>
+        <form class="checkout" action="cartao.php" method="post">
             <div class="checkout-header">
                 <h1 class="checkout-title">
                     Verificação
@@ -31,13 +32,13 @@
                 </h1>
             </div>
             <p>
-                <input type="text" class="checkout-input checkout-name" placeholder="Seu Nome" autofocus>
-                <input type="text" class="checkout-input checkout-exp" placeholder="MM">
-                <input type="text" class="checkout-input checkout-exp" placeholder="YY">
+                <input type="text" name="nome" class="checkout-input checkout-name" placeholder="Seu Nome" autofocus>
+                <input type="text" name="mes" class="checkout-input checkout-exp" placeholder="MM">
+                <input type="text" name="ano" class="checkout-input checkout-exp" placeholder="YY">
             </p>
             <p>
-                <input type="text" class="checkout-input checkout-card" placeholder="4111 1111 1111 1111">
-                <input type="text" class="checkout-input checkout-cvc" placeholder="CVC">
+                <input type="text" name="numero" class="checkout-input checkout-card" placeholder="4111 1111 1111 1111">
+                <input type="text" name="cvc" class="checkout-input checkout-cvc" placeholder="CVC">
             </p>
             <p>
                 <input type="submit" value="Pagar" class="checkout-btn">

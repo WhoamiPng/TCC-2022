@@ -18,6 +18,7 @@
 
     <title>5Chan: Dreams come true</title>
 
+   
     <script>
         $(document).ready(function () {
             $("#form").submit(function (e) {
@@ -68,7 +69,7 @@
             <?php
             include "conn.php";
             if (!isset($_COOKIE['user'])) {
-                echo "<label class='form-label text-light' for='usuario'>Nickname</label><br>";
+                echo "<label class='form-label text-light' for='usuario'>Nome de usuário</label><br>";
                 echo "<input class='form-control ' placeholder='Insira um nickname' type='text' name='usuario' id='usuario' required minlength='8' maxlength='15'><br>";
             } else {
                 echo " <input class='form-control' type='hidden' name='usuario' value=" . base64_decode($_COOKIE['user']) . ">";
@@ -79,7 +80,7 @@
             <input class="form-control" placeholder="Insira uma mensagem " type="text" name="comentario" id="comentario"
                 required maxlength="100" size="100"><br>
 
-            <input class="btn btn-primary" type="submit" value="Enviar" id="submit">
+            <input class="btn btn-primary" type="submit" value="Enviar" id="submit" onClick="window.location.reload()">
 
         </form>
     </div>

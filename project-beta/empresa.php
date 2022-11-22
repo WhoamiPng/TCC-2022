@@ -20,7 +20,7 @@
     <?php include 'preloader.php' ?>
     <?php include 'header.php' ?>
 
-    <div class="bg-light">
+    <div class="bg-light p-5">
         <div class="container">
             <div class="row h-150px align-items-center">
                 <div class="col-lg-6">
@@ -98,5 +98,4 @@
     <?php include 'footer.php' ?>
     </footer>
 </body> 
-
 </html>

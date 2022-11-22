@@ -9,8 +9,8 @@
           <p>Aproveite nosso site em sua versão beta!!!</p>
         </div>
         <div class="col-md-4 col-sm-6">
-          <form class="newsletter">
-            <input type="text" placeholder="Insira seu Email para receber novidades">
+          <form class="newsletter" action="email.php" method="POST">
+            <input type="text" name="emails" placeholder="Insira seu Email para receber novidades">
             <button class="newsletter_submit_btn" name="email" type="submit"><i class="fa fa-paper-plane"></i></button>
           </form>
           <!-- Social Colunas -->
@@ -59,21 +59,21 @@
           <div class="col-md-2 col-sm-5">
             <h3>5Chan Page</h3>
             <ul class="footer-links">
-              <li><a href="index.php">Início</a>
+              <li><a style="font-size:16px;" href="index.php">Início</a>
               </li>
-              <li><a href="sobre.php">Sobre nós</a>
+              <li><a style="font-size:16px;" href="sobre.php">Sobre nós</a>
               </li>
-              <li><a href="donate.php">Donate</a>
+              <li><a style="font-size:16px;" href="donate.php">Donate</a>
               </li>
-              <li><a href="contato.php">Contato</a>
+              <li><a style="font-size:16px;" href="contato.php">Contato</a>
             </ul>
           </div>
           <div class="col-md-3 col-sm-6">
             <h3>Sobre o 5Chan</h3>
             <ul class="footer-category">
-              <li><a href="empresa.php">A Empresa</a>
+              <li><a style="font-size:16px;" href="empresa.php">A Empresa</a>
               </li>
-              <li><a href="trabalhe.php">Trabalhe conosco</a>
+              <li><a style="font-size:16px;" href="trabalhe.php">Trabalhe conosco</a>
               </li>
 
             </ul>
@@ -82,7 +82,7 @@
           <div class="col-md-3 col-sm-6">
             <h3>Criadores</h3>
             <ul class="footer-links">
-              <li><a href="equipe.php">Equipe 5Chan</a></li>
+              <li><a  style="font-size:16px;" href="equipe.php">Equipe 5Chan</a></li>
             </ul>
           </div>
         </div>

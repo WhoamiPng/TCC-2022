@@ -147,8 +147,8 @@
         <?php include 'header.php' ?>
     </header>
 
-    <div class="responsive-container-block container">
-        <p class="text-blk team-head-text">
+    <div class="responsive-container-block container border">
+        <p class="text-blk team-head-text display-3">
             Nossa equipe de desenvolvimento!
         </p>
         <div class="responsive-container-block">

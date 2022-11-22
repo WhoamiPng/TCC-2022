@@ -20,8 +20,9 @@
     <header>
         <?php include 'header.php'; ?>
     </header>
-    <main class="p-4">
-        <h1 class="container s-1">APENAS ILUSTRAÇÃO,NÃO SEJA IDIOTA DE ME ENVIAR OS DADOS DO SEU CARTÃO!!!</h1>
+    <main class="p-5">
+    <div class="container border">
+        <h1 style="text-align:center;" >APENAS ILUSTRAÇÃO,NÃO SEJA IDIOTA DE ME ENVIAR OS DADOS DO SEU CARTÃO!!!</h1>
         <form class="checkout">
             <div class="checkout-header">
                 <h1 class="checkout-title">
@@ -42,6 +43,7 @@
                 <input type="submit" value="Pagar" class="checkout-btn">
             </p>
         </form>
+        </div>
         <style>
             html,
             body,
@@ -227,14 +229,6 @@
                 padding: 1px 3px;
                 margin: 0 -1px;
             }
-
-            /*
- * Copyright (c) 2013 Thibaut Courouble
- * http://www.cssflow.com
- *
- * Licensed under the MIT License:
- * https://www.opensource.org/licenses/mit-license.php
- */
             body {
                 font: 13px/20px 'Lucida Grande', Verdana, sans-serif;
                 color: #404040;

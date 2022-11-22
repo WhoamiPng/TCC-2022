@@ -6,10 +6,10 @@ $usuario = $_POST['usuario'];
 $comentario = $_POST['comentario'];
 if (strlen($_POST['usuario'])) #insere somente se no form foi escrito o nome
 {
-    $insert = mysqli_query($conn, "INSERT INTO comentarios(usuario,comentario) values('" . $usuario . "','" . $comentario . "')");
+    $insert = mysqli_query($conn, "INSERT INTO comentario(usuario,comentario) values('" . $usuario . "','" . $comentario . "')");
 }
 #Select dos comentarios
-$sql = "SELECT * FROM comentario     ORDER BY id desc";
+$sql = "SELECT * FROM comentario ORDER BY id desc";
 $result = mysqli_query($conn, $sql);
 #Printa uma linha por cada comentario
 while ($exibir = mysqli_fetch_array($result)) {

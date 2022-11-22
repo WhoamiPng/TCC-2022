@@ -44,7 +44,7 @@
               </div>
               <div class="app-contact">CONTATO 24/7 (11) 93012-8681</div>
             </div>
-            <form action="enviar_email.php" method="post">
+            <form action="problemas.php" method="POST">
               <div class="screen-body-item">
                 <div class="app-form">
                   <div class="app-form-group">
@@ -61,7 +61,7 @@
                   </div>
                   <div class="app-form-group buttons">
                     <button class="app-form-button">CANCELAR</button>
-                    <button class="app-form-button">ENVIAR</button>
+                    <button type="submit" class="app-form-button">ENVIAR</button>
                   </div>
                 </div>
               </div>

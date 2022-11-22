@@ -32,7 +32,7 @@
                     url: actionUrl,
                     data: form.serialize(), // serializes the form's elements.
                     success: function (data) {
-
+                        location.reload();
                     }
                 });
 
@@ -79,7 +79,7 @@
             <input class="form-control" placeholder="Insira uma mensagem " type="text" name="comentario" id="comentario"
                 required maxlength="100" size="100"><br>
 
-            <input class="btn btn-primary" type="submit" value="Enviar" id="submit" onClick="window.location.reload()">
+            <input class="btn btn-primary" type="submit" value="Enviar" id="submit">
 
         </form>
     </div>
